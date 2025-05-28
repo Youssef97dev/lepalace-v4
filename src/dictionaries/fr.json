@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "restaurant": "Restaurant",
+    "menu": "La Carte",
+    "gallery": "Galerie",
+    "kitchen": "Cuisine",
+    "contact": "Contact",
+    "book": "Réserver",
+    "lang_text": "Français"
+  },
+  "about": {
+    "content_1": "Au Le Palace, où tout, de la cuisine d'inspiration française (et les prix) est excessif, le décor opulent n'est égalé que par la clientèle.",
+    "content_2": "L'éclairage dans tout l'espace est riche et chaleureux, et le propriétaire, Nordine Fakir, lui attribue une grande partie du succès du restaurant. La plupart des convives commencent la soirée à l'intérieur, mais se dirigent ensuite vers le sous-sol, à l'allure de boudoir, orné de photos d'Yves Saint Laurent, où danser sur les meubles se prolonge jusqu'à tard dans la nuit."
+  },
+  "events": {
+    "placeholder": "Code d'accès",
+    "button": "Entrer",
+    "error": "Code d'accès incorrect"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "send": "Envoyer"
+  }
+}
