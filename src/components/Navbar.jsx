@@ -203,9 +203,7 @@ const Navbar = () => {
                   <Link href="/events">{t("navbar.events")}</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar hidden lg:block">
-                  <Link href="#" target="_blank">
-                    {t("navbar.menu")}
-                  </Link>
+                  <Link href="/menu">{t("navbar.menu")}</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
                   <Link href="/contact">{t("navbar.contact")}</Link>

@@ -7,8 +7,7 @@ const Buttons = () => {
   return (
     <div className="w-full flex justify-between gap-3 items-center px-5">
       <Link
-        target="_blank"
-        href="#"
+        href="/menu"
         className="w-full rounded-lg bg-white hover:bg-primary hover:text-white py-2 text-center shadow-md text-[12px]"
       >
         {t("navbar.menu")}
