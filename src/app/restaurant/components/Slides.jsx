@@ -3,10 +3,10 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const images = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/k36u7ezamlvdxte50jxo",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/Salama/salama_20-min_m92cvb",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/usuix6tsgjhreciq8pcf",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/dljc34xjbmfvh4eup5yr",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/url1v9lk6cofiop3rawc",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/fkrdwoonvv9ugospbtsp",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/l5jyim7ids0ntzgjqe7c",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/appmazhoyiswvsqwxdlo",
 ];
 
 const Slides = () => {
