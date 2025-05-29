@@ -199,6 +199,9 @@ const Navbar = () => {
                 <li className="pb-3 border-b border-bg_navbar">
                   <Link href="/kitchen">{t("navbar.kitchen")}</Link>
                 </li>
+                <li className="pb-3 border-b border-bg_navbar">
+                  <Link href="/events">{t("navbar.events")}</Link>
+                </li>
                 <li className="pb-3 border-b border-bg_navbar hidden lg:block">
                   <Link href="#" target="_blank">
                     {t("navbar.menu")}
