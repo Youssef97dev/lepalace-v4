@@ -13,8 +13,7 @@ const Buttons = () => {
         {t("navbar.menu")}
       </Link>
       <Link
-        target="_blank"
-        href="#"
+        href="/booking"
         className="w-full rounded-lg bg-primary hover:bg-secondary text-white py-2 text-center shadow-md text-[12px]"
       >
         {t("navbar.book")}

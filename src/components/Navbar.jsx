@@ -116,8 +116,7 @@ const Navbar = () => {
           </div>*/}
           <div className="w-full lg:flex hidden justify-end items-center  text-white cursor-pointer">
             <Link
-              href="https://www.sevenrooms.com/explore/lesalamamarrakech/reservations/create/search/"
-              target="_blank"
+              href="/booking"
               className={`tracking-[0.2em] font-light text-[14px] leading-[34px] py-2 px-4  rounded ${
                 scrolled
                   ? "text-secondary bg-transparent border border-secondary hover:bg-secondary hover:text-white"

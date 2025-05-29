@@ -25,7 +25,15 @@
     "firstname": "First Name",
     "lastname": "Last Name",
     "email": "Email",
+    "phone": "Phone Number",
     "subject": "Subject",
     "send": "Send"
+  },
+  "booking": {
+    "title": "Booking Request",
+    "request": "Send Request",
+    "reservationDate": "Reservation Date",
+    "time": "Time",
+    "guests": "Guests Number"
   }
 }
