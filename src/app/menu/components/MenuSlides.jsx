@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Buttons from "@/components/Buttons";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -28,7 +29,7 @@ const MenuSlides = () => {
       <MoonLoader size={60} color="#6c0c0d" loading />
     </div>
   ) : (
-    <div className="px-5 py-8 lg:px-72 lg:py-10">
+    <div className="relative px-2 py-16 lg:px-72 lg:py-10">
       <Swiper
         effect={"cube"}
         grabCursor={true}
@@ -125,6 +126,9 @@ const MenuSlides = () => {
           <RiArrowRightSLine size={25} />
         </button>
       </Swiper>
+      <div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
+        <Buttons />
+      </div>
     </div>
   );
 };
