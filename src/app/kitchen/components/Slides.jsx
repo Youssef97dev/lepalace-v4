@@ -3,17 +3,15 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const imagesMobile = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/ge6qqi3nvcd5ndj2klmn",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/spffrogpvepmupfigpcd",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-V2/ypw98v2x57uxrawqaucu",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/k36u7ezamlvdxte50jxo",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/lnsa8ljehs1spbbgixyj",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/tw9svop8gi4zd05qmfag",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/reih5gxefnz0nemhmffn",
 ];
 
 const imagesDesktop = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-V2/cpgsvredpzheozexmdur",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-V2/urz9wpnkvpkgvjukvhxy",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/u8lngfyi26ehndtx4ubm",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/salama-vnor/oe6ohbt2vhngxspxedro",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/mjwnl2xxinsqnkgxc943",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/itilbalha7c23d4w4mgj",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/bnnpww4d2mecdt02vk3h",
 ];
 
 const Slides = () => {
@@ -28,7 +26,7 @@ const Slides = () => {
   }, []);
   return (
     <>
-      <div className="relative w-full h-[50vh] block lg:hidden">
+      <div className="relative w-full h-[60vh] block lg:hidden">
         {imagesMobile.map((src, index) => (
           <div
             key={index}

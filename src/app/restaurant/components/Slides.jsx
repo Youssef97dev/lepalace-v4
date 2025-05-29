@@ -3,9 +3,11 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const images = [
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/l0ekp54asdehj5bpbgpg",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/url1v9lk6cofiop3rawc",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/fkrdwoonvv9ugospbtsp",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/l5jyim7ids0ntzgjqe7c",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/qrzfm1gxoanqcutp7grg",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/palace/appmazhoyiswvsqwxdlo",
 ];
 
@@ -21,7 +23,7 @@ const Slides = () => {
   }, []);
   return (
     <>
-      <div className="relative w-full h-[50vh] lg:h-screen">
+      <div className="relative w-full h-[60vh] lg:h-screen">
         {images.map((src, index) => (
           <div
             key={index}
